@@ -9,7 +9,7 @@ namespace Kalapácsvetést
     internal class Sportolo
     {
         public int Helyezés { get; set; }
-        public string Eredmyény { get; set; }
+        public double Eredmyény { get; set; }
         public string Sportolok { get; set; }
         public string Orszagkod { get; set; }
         public string Hejszin { get; set; }
@@ -18,7 +18,7 @@ namespace Kalapácsvetést
         {
             string[] s = sor.Split(';');
             Helyezés = int.Parse(s[0]);
-            Eredmyény = s[1];
+            Eredmyény = double.Parse(s[1]);
             Sportolok = s[2];
             Orszagkod = s[3];
             Hejszin = s[4];
