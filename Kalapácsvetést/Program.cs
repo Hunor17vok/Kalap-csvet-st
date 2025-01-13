@@ -9,7 +9,14 @@
             {
                 sportolok.Add(new Sportolo(sor));
             }
-            Console.WriteLine($"3.Feladat:Sportolok száma:{sportolok.Count}");
+            Console.WriteLine($"4.Feladat:Dobások száma:{sportolok.Count}db");
+            foreach (var h in )
+            {
+                if ()
+                {
+                    
+                }
+            }
         }
     }
 }
